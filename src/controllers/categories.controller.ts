@@ -1,6 +1,6 @@
-import { type Request, type Response } from 'express';
+import { type Request, type Response } from "express";
 
-import { CategoriesService } from '../services/categories.service';
+import { CategoriesService } from "../services/categories.service";
 
 export class CategoriesController {
   async create(_: Request, res: Response) {
